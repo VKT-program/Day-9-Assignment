@@ -1,0 +1,44 @@
+
+.header-container{
+    margin:20%;
+    background-color: black;
+    z-index: 2;
+    border: 1px;
+    border-radius: 6%;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    padding: 15px;
+    box-shadow: yellow;
+
+}
+
+.container {
+    border-style: solid;
+    border-top-style:solid;
+    border-top-color: darkblue;
+    border-top-width: 5px;
+    margin:auto;
+    margin-left: 40pt;
+    margin-right: 40pt;
+}
+
+.align-item {
+    vertical-align: middle;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    align-items: justify;
+    padding: 20px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
