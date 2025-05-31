@@ -1,0 +1,28 @@
+.base{
+    
+    width: 300px;
+    height: 450px;
+    background-color: gray;
+    border: 1px solid;
+    border-color: black;
+
+
+}
+
+.white1{
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5px;
+    background-color: gray;
+    width: 280px;
+    font-size: 3em;
+}
+
