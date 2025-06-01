@@ -1,0 +1,158 @@
+body{
+    background-image: url("https://i.ytimg.com/vi/NIUR0gADuwA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDcgTih_MA8=&rs=AOn4CLA4x7ajj6sY11aNMuIChktylttjyg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    
+
+}
+
+.box1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: dashed;
+    border-color: white;
+    border-radius: 20px;
+    
+} 
+
+.box2{
+    border: dashed;
+    border-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 60%;
+
+
+}
+
+.butt{
+    background-color: black;
+    opacity: 70%;
+    border: 1px;
+    border-color: white;
+    color: white;
+    padding: 5px;
+    
+
+
+}
+
+.inside1{
+    color: white;
+    border: dashed;
+    border-radius: 20px;
+    text-decoration: underline;
+    border-spacing: 20px;
+    
+}
+
+.inside2{
+    color: white;
+    border: dashed;
+    border-radius: 20px;
+    text-decoration: underline;
+    border-spacing: 20px;
+    
+}
+
+h2{
+    margin-left: 40px;
+}
+
+.pics{
+    height: 100pt;
+    width: 100pt;
+    border: 1px;
+    border-color: white;
+    border: dashed;
+    border-radius: 20px;
+
+}
+
+.inner1{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+}
+
+.inner2{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+}
+
+
+
+
+.navbar-frame {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    overflow: hidden; 
+    background-color: white; 
+    width: 600px; 
+    display: flex; 
+}
+
+.horizontal-nav {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-grow: 1; 
+    align-items: stretch; 
+}
+
+.nav-item {
+    padding: 15px 25px; 
+    text-align: center;
+    background-color: black; 
+    white-space: nowrap; 
+    
+}
+
+.nav-item a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.1em;
+    display: block; 
+}
+
+
+.nav-item + .nav-item { 
+    border-left: 1px solid white;
+    
+     
+}
+
+
+.nav-item.active {
+    background-color: black; 
+    color: white; 
+}
+
+.nav-item.active a {
+    color: inherit; 
+}
+
+.nav-item.empty-space {
+    background-color: #e0e0e0; 
+    flex-grow: 1; 
+    border-left: 10px solid goldenrod; 
+}
+
+
+.nav-item:not(.active):not(.empty-space):hover {
+    background-color: black; 
+    cursor: pointer;
+}
+
+.nav-item.active:hover {
+    background-color: lightgrey; 
+    cursor: default;
+}
