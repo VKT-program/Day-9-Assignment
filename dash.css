@@ -1,0 +1,124 @@
+ body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+ .wrapper{
+    display: flex;
+    width: 100%;
+    
+}
+
+.left-parts{
+    width: 250px; 
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #130156, #7a59df);
+    color: #fff;
+    padding-top: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    
+}
+
+.sidebar-header {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter on hover */
+    color: #fff;
+}
+
+.nav-item.active {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly darker for active state */
+    font-weight: bold;
+}
+
+.main-content {
+    flex-grow: 1; /* Allows main content to take up all remaining space */
+    background-color: #f8f9fa; /* Very light background for the content area */
+    padding: 30px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.main-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main-title {
+    color: #5c2dc1; /* Green color for the main title */
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0;
+    text-align: center; /* Center the title itself if no right icons */
+    flex-grow: 1; /* Allow title to take space */
+}
+
+/* For potential header icons (currently commented out in HTML) */
+.header-icons .fas {
+    font-size: 1.2em;
+    color: #555;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* --- Statistic Cards Grid --- */
+.stats-grid {
+    display: grid;
+    /* Two columns, each taking equal space */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px; /* Space between the cards */
+}
+
+.stat-card {
+    background-color: #fff; /* White background for each card */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+.card-title {
+    color: #555; /* Dark gray for title */
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card-value {
+    color: #615bd4; /* Green for the numbers */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
